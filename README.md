@@ -16,8 +16,8 @@ Ein Python-Skript zur Generierung eines professionellen Lebenslaufs als PDF mit 
 
 1. Klonen Sie das Repository:
 ```bash
-git clone https://github.com/husameldin/Lebenslauf-Generator.git
-cd Lebenslauf-Generator
+git clone https://github.com/Husameldin-92/Lebenslauf.git
+cd Lebenslauf
 ```
 
 2. Installieren Sie die erforderlichen Pakete:
