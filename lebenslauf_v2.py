@@ -52,6 +52,14 @@ html_content = """
             margin-bottom: 30px;
         }
         
+        .job-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            margin-top: 0;
+        }
+        
         .company-name {
             font-weight: bold;
             font-size: 16px;
@@ -67,6 +75,15 @@ html_content = """
         .job-details {
             color: #333;
             margin-bottom: 10px;
+        }
+        
+        .profile-summary {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+            line-height: 1.6;
         }
         
         .job-description {
@@ -213,21 +230,22 @@ html_content = """
 
             <h2>BERUFSERFAHRUNG</h2>
             <div class="job">
-                <p class="company-name"><span class="job-separator">🔹</span>QA Engineer / Software Tester</p>
-                <p class="company-location">Software & Support Media GmbH – Berlin</p>
+                <p class="job-title">QA Engineer / Software Tester</p>
+                <p class="company-name"><span class="job-separator">🔹</span>Software & Support Media GmbH – Berlin</p>
                 <p class="job-details">📆 seit 2023</p>
+                <p class="profile-summary">Schwerpunkt: Frontend- und Backend-Systeme, API-Validierung und Testautomatisierung in komplexen Web- und Mobile-Umgebungen</p>
                 <div class="job-description">
                     <ul>
-                        <li>Durchführung von manuellem und automatisiertem Testing von Web- und Mobile-Anwendungen</li>
-                        <li>Testing von nativen iOS- und Android-Apps</li>
+                        <li>Manuelles und automatisiertes Testing von Web-Anwendungen</li>
+                        <li>Testing nativer iOS- und Android-Apps</li>
                         <li>API-Testing mit GraphQL (Validierung von Queries, Mutations und Response-Strukturen)</li>
+                        <li>Backend-Datenprüfung und Schema-Validierung (JSON)</li>
                         <li>Testing von AI/RAG-Systemen (Retrieval-Logik, Chunking, Prompt-Validierung)</li>
                         <li>Entwicklung und Pflege von Testautomatisierung mit Cypress</li>
                         <li>Erstellung strukturierter Testfälle und Testpläne</li>
                         <li>Durchführung von Regression-, Edge-Case- und Negativtests</li>
                         <li>Validierung komplexer Subscription- und Payment-Flows</li>
-                        <li>Identifikation, Reproduktion und strukturierte Dokumentation von Softwarefehlern in einem Ticket-Tracking-System</li>
-                        <li>Backend-Datenprüfung (JSON-Strukturen, Schema-Validierung)</li>
+                        <li>Identifikation, Reproduktion und präzise Dokumentation reproduzierbarer Softwarefehler</li>
                         <li>Enge Zusammenarbeit mit Entwicklern zur Fehleranalyse und Qualitätssicherung</li>
                         <li>Unterstützung bei Release-Tests vor Deployments</li>
                     </ul>
