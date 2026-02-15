@@ -205,39 +205,39 @@ html_content = """
         <div class="main-content">
             <h1>Husameldin Osman</h1>
             <div class="contact-info">
-                <p>📍 Adresse: Engelmannweg 71, 13403 Berlin</p>
-                <p>✉️ E-Mail: hossamossman92@gmail.com</p>
-                <p>📞 Mobil: +49 (0)157 5163 7357</p>
-                <p>📅 Geburtsdatum: 10. Oktober 1992</p>
+                <p>📍 Isländische Straße 12, 13409 Berlin</p>
+                <p>✉️ hossamossman92@gmail.com</p>
+                <p>📞 +49 157 5163 7357</p>
+                <p>📅 10. Oktober 1992</p>
             </div>
 
-            <h2>BERUFLICHE LAUFBAHN</h2>
+            <h2>BERUFSERFAHRUNG</h2>
             <div class="job">
-                <p class="company-name"><span class="job-separator">🔹</span>Software & Support Media GmbH</p>
-                <p class="company-location">Berlin</p>
+                <p class="company-name"><span class="job-separator">🔹</span>QA Engineer / Software Tester</p>
+                <p class="company-location">Software & Support Media GmbH – Berlin</p>
                 <p class="job-details">📆 seit 2023</p>
-                <p class="job-details"><strong>Werkstudent QA / Software Testing (Wirtschaftsinformatik)</strong></p>
                 <div class="job-description">
                     <ul>
-                        <li>Manuelles und automatisiertes Testing von Web-Plattformen und digitalen Produkten</li>
-                        <li>API-Testing mit GraphQL (Validierung von Queries, Mutations, Response-Strukturen)</li>
-                        <li>Testautomatisierung mit Cypress</li>
-                        <li>Erstellung strukturierter Testfälle und Testpläne</li>
-                        <li>Durchführung von Edge-Case- und Negativtests</li>
-                        <li>Validierung von Subscription- und Payment-Flows</li>
-                        <li>Analyse und Dokumentation von Bugs in YouTrack</li>
-                        <li>Backend-Datenprüfung (JSON-Strukturen, Schema-Validierung)</li>
+                        <li>Durchführung von manuellem und automatisiertem Testing von Web- und Mobile-Anwendungen</li>
+                        <li>Testing von nativen iOS- und Android-Apps</li>
+                        <li>API-Testing mit GraphQL (Validierung von Queries, Mutations und Response-Strukturen)</li>
                         <li>Testing von AI/RAG-Systemen (Retrieval-Logik, Chunking, Prompt-Validierung)</li>
+                        <li>Entwicklung und Pflege von Testautomatisierung mit Cypress</li>
+                        <li>Erstellung strukturierter Testfälle und Testpläne</li>
+                        <li>Durchführung von Regression-, Edge-Case- und Negativtests</li>
+                        <li>Validierung komplexer Subscription- und Payment-Flows</li>
+                        <li>Identifikation, Reproduktion und strukturierte Dokumentation von Softwarefehlern in einem Ticket-Tracking-System</li>
+                        <li>Backend-Datenprüfung (JSON-Strukturen, Schema-Validierung)</li>
                         <li>Enge Zusammenarbeit mit Entwicklern zur Fehleranalyse und Qualitätssicherung</li>
-                        <li>Unterstützung bei Release-Tests und Qualitätssicherung vor Deployments</li>
+                        <li>Unterstützung bei Release-Tests vor Deployments</li>
                     </ul>
                 </div>
             </div>
 
             <div class="job">
-                <p class="company-name"><span class="job-separator">🔹</span>Natural Cover Multi Service</p>
+                <p class="company-name"><span class="job-separator">🔹</span>Manager of Sales</p>
+                <p class="company-location">Natural Cover Multi Service</p>
                 <p class="job-details">📆 Februar 2018 – 2019</p>
-                <p class="job-details"><strong>Manager of Sales</strong></p>
                 <div class="job-description">
                     <ul>
                         <li>Entwicklung und Umsetzung von Vertriebsstrategien</li>
@@ -249,33 +249,35 @@ html_content = """
             </div>
 
             <div class="job">
-                <p class="company-name"><span class="job-separator">🔹</span>Alinjaz Sudanese German Specialized Hospital</p>
+                <p class="company-name"><span class="job-separator">🔹</span>Supportmanager</p>
+                <p class="company-location">Alinjaz Sudanese German Specialized Hospital</p>
                 <p class="job-details">📆 Mai 2014 – Januar 2018</p>
-                <p class="job-details"><strong>Supportmanager</strong></p>
                 <div class="job-description">
                     <ul>
-                        <li>Koordination von externen Dienstleistern</li>
+                        <li>Koordination externer Dienstleister</li>
                         <li>Qualitätsprüfung und Kostenanalyse</li>
                         <li>Lieferantenkommunikation und Budgetplanung</li>
+                        <li>Vertrags- und Einkaufsverhandlungen</li>
                     </ul>
                 </div>
             </div>
 
             <h2>AUSBILDUNG</h2>
             <div class="education-item">
-                <p class="university">Technische Hochschule Brandenburg</p>
+                <p class="university">Master in Wirtschaftsinformatik</p>
                 <div class="education-details">
-                    <p>📆 März 2022 - Januar 2025</p>
-                    <p>🎓 Master in Wirtschaftsinformatik</p>
-                    <p><strong>Masterarbeit:</strong> Integration von Künstlicher Intelligenz in CRM-Systeme (Salesforce)</p>
+                    <p>Technische Hochschule Brandenburg</p>
+                    <p>📆 März 2022 – Januar 2025</p>
+                    <p><strong>Masterarbeit:</strong></p>
+                    <p>„Chancen und Herausforderungen der Integration von Künstlicher Intelligenz in den CRM-Bereich von ERP-Systemen – Das Beispiel Salesforce"</p>
                 </div>
             </div>
 
             <div class="education-item">
-                <p class="university">The National Ribat University</p>
+                <p class="university">Bachelor of Business Administration (BBA)</p>
                 <div class="education-details">
-                    <p>📆 2009 - 2013</p>
-                    <p>🎓 Bachelor in Business Administration (BBA)</p>
+                    <p>The National Ribat University</p>
+                    <p>📆 2009 – 2013</p>
                 </div>
             </div>
         </div>
@@ -287,12 +289,17 @@ html_content = """
             
             <div class="competency-section">
                 <div class="competency-title">Testing & QA</div>
-                <div class="competency-items">Manual Testing • Test Design • Edge Case Testing • Regression Testing • Release Testing</div>
+                <div class="competency-items">Manual Testing • Regression Testing • Edge Case Testing • Release Testing • Mobile Testing</div>
             </div>
             
             <div class="competency-section">
                 <div class="competency-title">Automation & APIs</div>
                 <div class="competency-items">Cypress • GraphQL • Postman • Insomnia</div>
+            </div>
+            
+            <div class="competency-section">
+                <div class="competency-title">Mobile</div>
+                <div class="competency-items">Native iOS Testing • Native Android Testing</div>
             </div>
             
             <div class="competency-section">
@@ -302,28 +309,22 @@ html_content = """
 
             <h2 class="section-title">SPRACHEN</h2>
             <div class="language-item">
-                <div class="language-name">🇩🇪 Deutsch</div>
-                <div>Fließend (C1)</div>
+                <div class="language-name">Deutsch</div>
+                <div>– C1</div>
             </div>
             <div class="language-item">
-                <div class="language-name">🇬🇧 Englisch</div>
-                <div>Fließend (C1)</div>
+                <div class="language-name">Englisch</div>
+                <div>– C1</div>
             </div>
             <div class="language-item">
-                <div class="language-name">🇸🇩 Arabisch</div>
-                <div>Muttersprache</div>
+                <div class="language-name">Arabisch</div>
+                <div>– Muttersprache</div>
             </div>
 
             <h2 class="section-title">ZERTIFIZIERUNGEN</h2>
             <ul class="kenntnisse-list">
-                <li>🏅 SQL-Zertifizierung</li>
-                <li>🏅 Salesforce Development</li>
-                <li>🏅 SAP S/4HANA (TS410)</li>
-                <li>🏅 SAP SD – Auftragsabwicklung</li>
-                <li>🏅 SAP S/4HANA Customizing</li>
-                <li>🏅 WordPress</li>
-                <li>🏅 SEA</li>
-                <li>🏅 YOAST WordPress SEO</li>
+                <li>SQL-Zertifizierung</li>
+                <li>Salesforce Development</li>
             </ul>
         </div>
     </div>
