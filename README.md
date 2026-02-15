@@ -20,9 +20,17 @@ git clone https://github.com/Husameldin-92/Lebenslauf.git
 cd Lebenslauf
 ```
 
-2. Installieren Sie die erforderlichen Pakete:
+2. Aktivieren Sie die virtuelle Umgebung und installieren Sie die erforderlichen Pakete:
 ```bash
+source venv/bin/activate
 pip install playwright
+playwright install chromium
+```
+
+Oder verwenden Sie requirements.txt:
+```bash
+source venv/bin/activate
+pip install -r requirements.txt
 playwright install chromium
 ```
 
